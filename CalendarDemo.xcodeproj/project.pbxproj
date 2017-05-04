@@ -10,11 +10,26 @@
 		040F2FE71EBAFBCE00FD1DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2FE61EBAFBCE00FD1DAC /* main.m */; };
 		040F2FEA1EBAFBCE00FD1DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2FE91EBAFBCE00FD1DAC /* AppDelegate.m */; };
 		040F2FED1EBAFBCE00FD1DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2FEC1EBAFBCE00FD1DAC /* ViewController.m */; };
-		040F2FF01EBAFBCE00FD1DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F2FEE1EBAFBCE00FD1DAC /* Main.storyboard */; };
 		040F2FF21EBAFBCE00FD1DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040F2FF11EBAFBCE00FD1DAC /* Assets.xcassets */; };
 		040F2FF51EBAFBCE00FD1DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F2FF31EBAFBCE00FD1DAC /* LaunchScreen.storyboard */; };
 		040F30001EBAFBCE00FD1DAC /* CalendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2FFF1EBAFBCE00FD1DAC /* CalendarDemoTests.m */; };
 		040F300B1EBAFBCE00FD1DAC /* CalendarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F300A1EBAFBCE00FD1DAC /* CalendarDemoUITests.m */; };
+		044FE91E1EBAFDE000D0C35B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044FE9041EBAFDE000D0C35B /* Info.plist */; };
+		044FE91F1EBAFDE000D0C35B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9061EBAFDE000D0C35B /* MASCompositeConstraint.m */; };
+		044FE9201EBAFDE000D0C35B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9091EBAFDE000D0C35B /* MASConstraint.m */; };
+		044FE9211EBAFDE000D0C35B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE90B1EBAFDE000D0C35B /* MASConstraintMaker.m */; };
+		044FE9221EBAFDE000D0C35B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE90D1EBAFDE000D0C35B /* MASLayoutConstraint.m */; };
+		044FE9231EBAFDE000D0C35B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9111EBAFDE000D0C35B /* MASViewAttribute.m */; };
+		044FE9241EBAFDE000D0C35B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9131EBAFDE000D0C35B /* MASViewConstraint.m */; };
+		044FE9251EBAFDE000D0C35B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9151EBAFDE000D0C35B /* NSArray+MASAdditions.m */; };
+		044FE9261EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9181EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		044FE9271EBAFDE000D0C35B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE91A1EBAFDE000D0C35B /* View+MASAdditions.m */; };
+		044FE9281EBAFDE000D0C35B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE91D1EBAFDE000D0C35B /* ViewController+MASAdditions.m */; };
+		044FE92B1EBB000B00D0C35B /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE92A1EBB000B00D0C35B /* CalendarController.m */; };
+		044FE92F1EBB03A600D0C35B /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE92E1EBB03A600D0C35B /* UIColor+hex.m */; };
+		044FE9321EBB04E200D0C35B /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9311EBB04E200D0C35B /* CalendarCell.m */; };
+		044FE9351EBB04F800D0C35B /* CalendarNullCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9341EBB04F800D0C35B /* CalendarNullCell.m */; };
+		044FE9381EBB051B00D0C35B /* CalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE9371EBB051B00D0C35B /* CalendarHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +56,6 @@
 		040F2FE91EBAFBCE00FD1DAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		040F2FEB1EBAFBCE00FD1DAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		040F2FEC1EBAFBCE00FD1DAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		040F2FEF1EBAFBCE00FD1DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040F2FF11EBAFBCE00FD1DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040F2FF41EBAFBCE00FD1DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040F2FF61EBAFBCE00FD1DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +65,43 @@
 		040F30061EBAFBCE00FD1DAC /* CalendarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040F300A1EBAFBCE00FD1DAC /* CalendarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarDemoUITests.m; sourceTree = "<group>"; };
 		040F300C1EBAFBCE00FD1DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE9041EBAFDE000D0C35B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FE9051EBAFDE000D0C35B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		044FE9061EBAFDE000D0C35B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		044FE9071EBAFDE000D0C35B /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		044FE9081EBAFDE000D0C35B /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		044FE9091EBAFDE000D0C35B /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		044FE90A1EBAFDE000D0C35B /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		044FE90B1EBAFDE000D0C35B /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		044FE90C1EBAFDE000D0C35B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		044FE90D1EBAFDE000D0C35B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		044FE90E1EBAFDE000D0C35B /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		044FE90F1EBAFDE000D0C35B /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		044FE9101EBAFDE000D0C35B /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		044FE9111EBAFDE000D0C35B /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		044FE9121EBAFDE000D0C35B /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		044FE9131EBAFDE000D0C35B /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		044FE9141EBAFDE000D0C35B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		044FE9151EBAFDE000D0C35B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		044FE9161EBAFDE000D0C35B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		044FE9171EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		044FE9181EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		044FE9191EBAFDE000D0C35B /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		044FE91A1EBAFDE000D0C35B /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		044FE91B1EBAFDE000D0C35B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		044FE91C1EBAFDE000D0C35B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		044FE91D1EBAFDE000D0C35B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		044FE9291EBB000B00D0C35B /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
+		044FE92A1EBB000B00D0C35B /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
+		044FE92C1EBB030E00D0C35B /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		044FE92D1EBB03A600D0C35B /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		044FE92E1EBB03A600D0C35B /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+		044FE9301EBB04E200D0C35B /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		044FE9311EBB04E200D0C35B /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
+		044FE9331EBB04F800D0C35B /* CalendarNullCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarNullCell.h; sourceTree = "<group>"; };
+		044FE9341EBB04F800D0C35B /* CalendarNullCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarNullCell.m; sourceTree = "<group>"; };
+		044FE9361EBB051B00D0C35B /* CalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHeaderView.h; sourceTree = "<group>"; };
+		044FE9371EBB051B00D0C35B /* CalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +152,22 @@
 		040F2FE41EBAFBCE00FD1DAC /* CalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				044FE9031EBAFDE000D0C35B /* Masonry */,
 				040F2FE81EBAFBCE00FD1DAC /* AppDelegate.h */,
 				040F2FE91EBAFBCE00FD1DAC /* AppDelegate.m */,
 				040F2FEB1EBAFBCE00FD1DAC /* ViewController.h */,
 				040F2FEC1EBAFBCE00FD1DAC /* ViewController.m */,
-				040F2FEE1EBAFBCE00FD1DAC /* Main.storyboard */,
+				044FE9291EBB000B00D0C35B /* CalendarController.h */,
+				044FE92A1EBB000B00D0C35B /* CalendarController.m */,
+				044FE92C1EBB030E00D0C35B /* common.h */,
+				044FE92D1EBB03A600D0C35B /* UIColor+hex.h */,
+				044FE92E1EBB03A600D0C35B /* UIColor+hex.m */,
+				044FE9301EBB04E200D0C35B /* CalendarCell.h */,
+				044FE9311EBB04E200D0C35B /* CalendarCell.m */,
+				044FE9331EBB04F800D0C35B /* CalendarNullCell.h */,
+				044FE9341EBB04F800D0C35B /* CalendarNullCell.m */,
+				044FE9361EBB051B00D0C35B /* CalendarHeaderView.h */,
+				044FE9371EBB051B00D0C35B /* CalendarHeaderView.m */,
 				040F2FF11EBAFBCE00FD1DAC /* Assets.xcassets */,
 				040F2FF31EBAFBCE00FD1DAC /* LaunchScreen.storyboard */,
 				040F2FF61EBAFBCE00FD1DAC /* Info.plist */,
@@ -138,6 +200,39 @@
 				040F300C1EBAFBCE00FD1DAC /* Info.plist */,
 			);
 			path = CalendarDemoUITests;
+			sourceTree = "<group>";
+		};
+		044FE9031EBAFDE000D0C35B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				044FE9041EBAFDE000D0C35B /* Info.plist */,
+				044FE9051EBAFDE000D0C35B /* MASCompositeConstraint.h */,
+				044FE9061EBAFDE000D0C35B /* MASCompositeConstraint.m */,
+				044FE9071EBAFDE000D0C35B /* MASConstraint+Private.h */,
+				044FE9081EBAFDE000D0C35B /* MASConstraint.h */,
+				044FE9091EBAFDE000D0C35B /* MASConstraint.m */,
+				044FE90A1EBAFDE000D0C35B /* MASConstraintMaker.h */,
+				044FE90B1EBAFDE000D0C35B /* MASConstraintMaker.m */,
+				044FE90C1EBAFDE000D0C35B /* MASLayoutConstraint.h */,
+				044FE90D1EBAFDE000D0C35B /* MASLayoutConstraint.m */,
+				044FE90E1EBAFDE000D0C35B /* Masonry.h */,
+				044FE90F1EBAFDE000D0C35B /* MASUtilities.h */,
+				044FE9101EBAFDE000D0C35B /* MASViewAttribute.h */,
+				044FE9111EBAFDE000D0C35B /* MASViewAttribute.m */,
+				044FE9121EBAFDE000D0C35B /* MASViewConstraint.h */,
+				044FE9131EBAFDE000D0C35B /* MASViewConstraint.m */,
+				044FE9141EBAFDE000D0C35B /* NSArray+MASAdditions.h */,
+				044FE9151EBAFDE000D0C35B /* NSArray+MASAdditions.m */,
+				044FE9161EBAFDE000D0C35B /* NSArray+MASShorthandAdditions.h */,
+				044FE9171EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				044FE9181EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				044FE9191EBAFDE000D0C35B /* View+MASAdditions.h */,
+				044FE91A1EBAFDE000D0C35B /* View+MASAdditions.m */,
+				044FE91B1EBAFDE000D0C35B /* View+MASShorthandAdditions.h */,
+				044FE91C1EBAFDE000D0C35B /* ViewController+MASAdditions.h */,
+				044FE91D1EBAFDE000D0C35B /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +346,7 @@
 			files = (
 				040F2FF51EBAFBCE00FD1DAC /* LaunchScreen.storyboard in Resources */,
 				040F2FF21EBAFBCE00FD1DAC /* Assets.xcassets in Resources */,
-				040F2FF01EBAFBCE00FD1DAC /* Main.storyboard in Resources */,
+				044FE91E1EBAFDE000D0C35B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +371,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044FE9261EBAFDE000D0C35B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				044FE9241EBAFDE000D0C35B /* MASViewConstraint.m in Sources */,
+				044FE9351EBB04F800D0C35B /* CalendarNullCell.m in Sources */,
+				044FE91F1EBAFDE000D0C35B /* MASCompositeConstraint.m in Sources */,
+				044FE9321EBB04E200D0C35B /* CalendarCell.m in Sources */,
+				044FE9251EBAFDE000D0C35B /* NSArray+MASAdditions.m in Sources */,
 				040F2FED1EBAFBCE00FD1DAC /* ViewController.m in Sources */,
 				040F2FEA1EBAFBCE00FD1DAC /* AppDelegate.m in Sources */,
+				044FE9221EBAFDE000D0C35B /* MASLayoutConstraint.m in Sources */,
+				044FE92F1EBB03A600D0C35B /* UIColor+hex.m in Sources */,
 				040F2FE71EBAFBCE00FD1DAC /* main.m in Sources */,
+				044FE9381EBB051B00D0C35B /* CalendarHeaderView.m in Sources */,
+				044FE9281EBAFDE000D0C35B /* ViewController+MASAdditions.m in Sources */,
+				044FE9271EBAFDE000D0C35B /* View+MASAdditions.m in Sources */,
+				044FE9231EBAFDE000D0C35B /* MASViewAttribute.m in Sources */,
+				044FE9201EBAFDE000D0C35B /* MASConstraint.m in Sources */,
+				044FE9211EBAFDE000D0C35B /* MASConstraintMaker.m in Sources */,
+				044FE92B1EBB000B00D0C35B /* CalendarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +424,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		040F2FEE1EBAFBCE00FD1DAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				040F2FEF1EBAFBCE00FD1DAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		040F2FF31EBAFBCE00FD1DAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -514,6 +616,7 @@
 				040F30111EBAFBCE00FD1DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040F30121EBAFBCE00FD1DAC /* Build configuration list for PBXNativeTarget "CalendarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +625,7 @@
 				040F30141EBAFBCE00FD1DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040F30151EBAFBCE00FD1DAC /* Build configuration list for PBXNativeTarget "CalendarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +634,7 @@
 				040F30171EBAFBCE00FD1DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
